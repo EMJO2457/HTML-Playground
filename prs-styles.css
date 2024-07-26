@@ -1,0 +1,12 @@
+header {
+  background-color: bisque;
+}
+
+main{
+    display:flex;
+}
+
+main nav{
+    display:flex;
+    list-style: none;
+}
