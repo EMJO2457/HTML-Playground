@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vendors</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="../bootstrap/css/prsstyles">
+    
+    <style>
+        .border-right {
+          border-right: 1px solid gray;
+        }
+        #sidebar{
+            height: 100vh;
+            width: 12%;
+            padding: 2rem; 
+            border-right: .1rem solid gray;
+            margin: 0rem;
+     
+        }
+        #main{
+            margin:2px;
+            padding:2rem;
+        }
+        #header{
+            display:flex;
+            height:5rem;
+            justify-content: space-between;
+            align-content: center;
+            align-items: center;
+            background-color: lightgray;
+            border-bottom: .1rem solid black;
+
+        }
+        #subheader{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            align-content:center;
+            border-bottom: .1rem solid gray;
+            
+        }
+        #signin{
+            margin-right: 2rem;
+        }
+        #card{
+          margin:1rem;
+          height:12rem;
+          width:18rem;
+        }
+        #submain{
+          background-color:beige;
+          height: 100vh;
+        }
+      </style>
+  </head>
+  <body>
+    <header class="" id="header">
+      <div>
+    <svg id="logo-35" width="50" height="39" viewBox="0 0 50 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M16.4992 2H37.5808L22.0816 24.9729H1L16.4992 2Z" class="ccompli1" fill="#007AFF"></path>
+      <path
+        d="M17.4224 27.102L11.4192 36H33.5008L49 13.0271H32.7024L23.2064 27.102H17.4224Z"
+        class="ccustom"
+        fill="#312ECB"
+      ></path>
+    </svg>
+    <span>Purchase Request System</span>
+    </div>
+    <a  href="" class="btn btn-primary" id="signin">Sign in</a>
+  </header>
+    <main class="container-fluid d-flex">
+      <nav class ="container-fluid" id="sidebar">
+        <div class="container-fluid d-flex" style="align-items: center; justify-content: left;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+          </svg>
+        <a href="" style="margin-left: 1rem;">Create New</a>
+        </div>
+        <h5 style="margin:1rem;">Purchase</h5>
+        <ul class="nav flex-column"> 
+          <div class="container d-flex" style="align-items: center;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+            <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z"/>
+            <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+          </svg>
+            <li class="nav-item"><a class="nav-link" href="">Requests</a></li></div>     
+            <div class="container d-flex" style="align-items: center;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-boxes" viewBox="0 0 16 16">
+            <path d="M7.752.066a.5.5 0 0 1 .496 0l3.75 2.143a.5.5 0 0 1 .252.434v3.995l3.498 2A.5.5 0 0 1 16 9.07v4.286a.5.5 0 0 1-.252.434l-3.75 2.143a.5.5 0 0 1-.496 0l-3.502-2-3.502 2.001a.5.5 0 0 1-.496 0l-3.75-2.143A.5.5 0 0 1 0 13.357V9.071a.5.5 0 0 1 .252-.434L3.75 6.638V2.643a.5.5 0 0 1 .252-.434zM4.25 7.504 1.508 9.071l2.742 1.567 2.742-1.567zM7.5 9.933l-2.75 1.571v3.134l2.75-1.571zm1 3.134 2.75 1.571v-3.134L8.5 9.933zm.508-3.996 2.742 1.567 2.742-1.567-2.742-1.567zm2.242-2.433V3.504L8.5 5.076V8.21zM7.5 8.21V5.076L4.75 3.504v3.134zM5.258 2.643 8 4.21l2.742-1.567L8 1.076zM15 9.933l-2.75 1.571v3.134L15 13.067zM3.75 14.638v-3.134L1 9.933v3.134z"/>
+          </svg>
+          <li class="nav-item"><a class="nav-link" href="">Products</a></li></div>
+          <div class="container d-flex" style="align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16">
+              <path d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z"/>
+              <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1zm11 0H3v14h3v-2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V15h3z"/>
+            </svg>
+          <li class="nav-item"><a class="nav-link" href="vendors.html">Vendors</a></li>
+          </div>
+          <div class="container d-flex" style="align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+              <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"/>
+            </svg>
+          <li class="nav-item"><a class="nav-link" href="">Users</a></li>
+          </div>
+        </ul>
+      </nav>
+      <section class="container-fluid">
+        <section  class=container-fluid id="subheader">
+               <h3>New Vendor</h3>
+        </section>
+        <form class="row g-3">       
+            <div class="col-md-6">
+          <label for="" class="">Vendor Code</label>
+          <input class="form-control" type="text"  placeholder="Enter Vendor Code"/>
+            </div>
+            <div class="col-md-6">
+          <label for="">Vendor Name</label>
+          <input class="form-control" type="text" placeholder="Enter Vendor Name"/>
+            </div>
+          <br />
+          <label for="">Address</label>
+          <br />
+          <input class="form-control" type="text"  placeholder="Enter Address"/>
+          <br />
+          <label  for="">City</label>
+          <br />
+          <input class="form-control" type="text" placeholder="Enter City"/>
+          <br />
+          <label for="">State</label>
+          <br />
+          <input class="form-control" type="text" placeholder="Enter State"/>
+          <br />
+          <label for="">Zip</label>
+          <br />
+          <input  class="form-control" type="text" name="" id="" placeholder="Enter Zip"/>
+          <br />
+          <label for="">Phone</label>
+          <br />
+          <input  class="form-control" type="text" name="" id="" placeholder="Enter Phone" />
+          <br />
+          <label for="">Email</label>
+          <br />
+          <input class="form-control" type="text" placeholder="Enter Email"/>
+          <br />
+          <div class="container d-flex gap-2 justify-content-center">
+          <button class="btn btn-outline-danger">Cancel</button>
+          
+          <button class="btn btn-outline-success">Save Vendor</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
