@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
+
+.border-right {
+    border-right: 1px solid gray;
+  }
+  #sidebar{
+      height: 100vh;
+      width: 12%;
+      padding: 2rem; 
+      border-right: .1rem solid gray;
+      margin: 0rem;
+
+  }
+  #main{
+      margin:2px;
+      padding:2rem;
+  }
+  #header{
+      display:flex;
+      height:5rem;
+      justify-content: space-between;
+      align-content: center;
+      align-items: center;
+      background-color: lightgray;
+      border-bottom: .1rem solid black;
+
+  }
+  #subheader{
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      align-content:center;
+      border-bottom: .1rem solid gray;
+      
+  }
+  #signin{
+      margin-right: 2rem;
+  }
+  #card{
+    margin:1rem;
+    height:12rem;
+    width:18rem;
+  }
+  #submain{
+    background-color:beige;
+    height: 100vh;
+  }
